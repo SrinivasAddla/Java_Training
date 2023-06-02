@@ -7,7 +7,7 @@ public class BorrowBook extends Books
 	public void borrowBook()
 	{
         System.out.println("Enter the patron name: ");
-//        scanner.nextLine();
+        scanner.nextLine();
         String patronName = scanner.nextLine();
 
         int patronIndex = index.findPatronIndex(patronName);

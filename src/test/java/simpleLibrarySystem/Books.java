@@ -6,12 +6,12 @@ public class Books
 {
 	public static final int MAX_BOOKS = 5;
     public static final int MAX_PATRONS = 5;
-    protected static String[] books = new String[MAX_BOOKS];
-    protected static String[] authors = new String[MAX_BOOKS];
-    protected static String[] patrons = new String[MAX_PATRONS];
-    protected static String[] borrowedBooks = new String[MAX_PATRONS];
+    public static String[] books = new String[MAX_BOOKS];
+    public static String[] authors = new String[MAX_BOOKS];
+    public static String[] patrons = new String[MAX_PATRONS];
+    public static String[] borrowedBooks = new String[MAX_PATRONS];
     public static int bookCount = 0;
-    protected static int patronCount = 0;
+    public static int patronCount = 0;
     public static Scanner scanner = new Scanner(System.in);
     
     //main method

@@ -9,10 +9,9 @@ public class AddBook extends Books
             System.out.println("Cannot add more books. Maximum limit reached.");
             return;
         }
-
+		
         System.out.print("Enter the book title: ");
         String title = scanner.next();
-        
         System.out.print("Enter the author: ");
         String author = scanner.next();
 
