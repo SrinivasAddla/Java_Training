@@ -3,7 +3,7 @@ package simpleLibrarySystem;
 public class ReturnBook extends Books
 {
 	
-	static Indexing index = new Indexing();
+	 Indexing index = new Indexing();
 	
 	public void returnBook() 
 	{
